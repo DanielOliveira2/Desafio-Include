@@ -76,3 +76,49 @@ button a {
 button:hover {
     background-color: #ff9000;
 }
+
+section {
+    padding: 40px;
+    color: #fff;
+    text-align: left; 
+    border-radius: 20px; 
+    margin: 20px 0; 
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #F15D30;
+    text-transform: uppercase;
+}
+
+
+.character-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.character-card img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.character-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F15D30;
+    margin-right: 10px; 
+}
+
+.character-description {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px; 
+}
